@@ -3,7 +3,7 @@ import axios from "axios";
 import { KEY_ACCESS_TOKEN, getItem } from "./LocalStorageManager";
 
 export const axiosClient = axios.create({
-  baseURL: import.meta.env.VITE_APP_BACKEND_URL,
+  baseURL: import.meta.env.VITE_APP_BACKEND_URL_PRODUCTION,
   withCredentials: true,
 });
 
